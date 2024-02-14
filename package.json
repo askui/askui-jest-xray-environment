@@ -1,0 +1,54 @@
+{
+  "name": "@askui/askui-jest-xray-environment",
+  "version": "0.0.1",
+  "description": "Jest environment for use with AskUIXRayStepReporter",
+  "keywords": [
+      "test",
+      "testing",
+      "automated-testing",
+      "e2e-testing",
+      "rpa",
+      "askui",
+      "function-testing",
+      "ui-testing",
+      "automation",
+      "selenium",
+      "cypress",
+      "playwright",
+      "ui-automation"
+  ],
+  "main": "./dist/cjs/main.js",
+  "module": "./dist/esm/main.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "test": "echo \"Error: no test specified\"",
+    "lint": "echo \"Error: no test specified\"",
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/askui/askui-jest-xray-environment.git"
+  },
+  "author": "askui GmbH <info@askui.com> (http://www.askui.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/askui/askui-jest-xray-environment/issues"
+  },
+  "homepage": "https://github.com/askui/askui-jest-xray-environment#readme",
+  "files": [
+    "dist/cjs/",
+    "dist/esm/"
+  ],
+  "devDependencies": {
+    "@release-it/bumper": "6.0.1",
+    "@release-it/conventional-changelog": "8.0.1",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.4.2",
+    "jest": "29.7.0",
+    "release-it": "17.0.3",
+    "ts-jest": "29.1.2",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}

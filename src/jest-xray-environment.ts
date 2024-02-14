@@ -1,7 +1,7 @@
 import NodeEnvironment from 'jest-environment-node';
 import { Event } from 'jest-circus';
 
-class JestXRayEnvironment extends NodeEnvironment {
+export class JestXRayEnvironment extends NodeEnvironment {
 
   override async setup() {
     await super.setup();
@@ -23,5 +23,3 @@ class JestXRayEnvironment extends NodeEnvironment {
     }
   }
 }
-
-export { JestXRayEnvironment as default};

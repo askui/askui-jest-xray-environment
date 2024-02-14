@@ -1,0 +1,1 @@
+export { JestXRayEnvironment as default } from "./jest-xray-environment";

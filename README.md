@@ -21,7 +21,7 @@ export default config;
 ## 🧱 Build New Release
 
 ```
-cd askui-reporters
+cd askui-jest-xray-environment
 
 npm config set scope askui
 npm config set access public
